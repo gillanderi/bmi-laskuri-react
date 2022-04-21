@@ -1,38 +1,39 @@
 .App {
   text-align: center;
 }
+.tulos1{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: #2BF04D;
+  color: #002ed4;
+  margin: 3em;
+  padding: 1em;
+}
+.tulos2{
+
+  background-color: #EBDC23;
+  color: #972b00;
+  margin: 3em;
+  padding: 1em;
+}
+.tulos3{
+
+  background-color: #EBA631;
+  color: #8c3400;
+  margin: 3em;
+  padding: 1em;
+}
+.tulos4{
+
+  background-color: #EB3423;
+  color:#e1ae21;
+  margin: 3em;
+  padding: 1em;
+}
+.tulos5{
+
+  background-color: #7E1500;
+  color: #ea2907;
+  margin: 3em;
+  padding: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
